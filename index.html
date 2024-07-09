@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Razorpay</title>
 </head>
 <body>
     <nav class="bg-deepBlue">
-        <div class="relative w-[1080px] mx-auto flex items-center justify-between bg-red-500">
+        <div class="relative w-[1080px] mx-auto flex items-center justify-between">
             <a href="#" class="cursor-pointer py-7 pr-7">
                 <img src="logo.svg" width="125px" height="30px">
             </a>
 
-            <ul class="flex gap-7 mr-72">
-                <li class="py-4 border-b-2 hover:border-b-black">Payment</li>
-                <li>Banking</li>
-                <li>Corporate Card</li>
-                <li>Payroll</li>
-                <li>Resources</li>
-                <li>Support</li>
-                <li>Pricing</li>
+            <ul class="flex justify-evenly space-x-6 text-white ">
+                <a href="#"><li class="transition-all duration-200 cursor-pointer font-mullish h-20 py-8 text-sm hover:text-lightBlue500 hover:border-b-4 hover:border-b-lightBlue">Payment</li></a>
+                <a href="#"><li class="transition-all duration-200 cursor-pointer font-mullish h-20 py-8 text-sm hover:text-lightBlue500 hover:border-b-4 hover:border-b-lightBlue">Banking</li></a>
+                <a href="#"><li class="transition-all duration-200 cursor-pointer font-mullish h-20 py-8 text-sm hover:text-lightBlue500">Corporate Card</li></a>
+                <a href="#"><li class="transition-all duration-200 cursor-pointer font-mullish h-20 py-8 text-sm hover:text-lightBlue500">Payroll</li></a>
+                <a href="#"><li class="transition-all duration-200 cursor-pointer font-mullish h-20 py-8 text-sm hover:text-lightBlue500 hover:border-b-4 hover:border-b-lightBlue">Resources</li></a>
+                <a href="#"><li class="transition-all duration-200 cursor-pointer font-mullish h-20 py-8 text-sm hover:text-lightBlue500 hover:border-b-4 hover:border-b-lightBlue">Support</li></a>
+                <a href="#"><li class="transition-all duration-200 cursor-pointer font-mullish h-20 py-8 text-sm hover:text-lightBlue500 hover:border-b-4 hover:border-b-lightBlue">Pricing</li></a>
             </ul>
+
+            <div class="flex space-x-6">
+                <img src="india-flag.svg" width="28px" height="20px">
+                <button class="py-3 px-5 text-white rounded-sm font-mullish text-sm font-bold border-lightBlue border">Log in</button>
+                <button class="py-3 px-4 text-lightBlue300 font-mullish text-sm border font-bold bg-white rounded-sm transition-all duration-200 hover:text-lightBlue500">Sign Up <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <div class="w-[1080px] mx-auto flex items-center justify-between">
+            <div class="text-white"></div>
         </div>
     </nav>
 </body>
