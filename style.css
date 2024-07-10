@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-#external{
+#external,#external2{
     transition: all 200ms;
 }
 #external:hover{
@@ -11,5 +11,12 @@
         background-color: #0b72e7;
     }
     box-shadow: -10px -10px 10px rgb(218, 217, 217);
+    
+}
+#external2:hover{
+    #img1{
+        background-color: #0b72e7;
+    }
+    box-shadow: -5px -5px 10px rgb(24,28,56);
     
 }
