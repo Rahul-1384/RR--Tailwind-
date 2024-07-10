@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Razorpay</title>
 </head>
-<body>
+<body class="overflow-x-hidden">
 
     <!-- navbar section -->
     <nav class="bg-deepBlue">
@@ -35,22 +35,65 @@
     </nav>
 
     <!-- hero section -->
-    <section class="text-white relative bg-deepBlue">
-        <div class="w-10/12 items-center flex justify-between max-w-[1080px] mx-auto">
+    <section class="relative bg-deepBlue">
+        <div class="w-10/12 items-center flex flex-row justify-between max-w-[1080px] mx-auto">
             <!-- left -->
             <div class=" space-y-8">
-                <h1 class="font-bold text-white font-mullish text-4xl leading-8">Power your finance,<br>grow your business</h1>
+                <h1 class="font-bold text-white font-mullish text-[40px] leading-[1.2]">Power your finance,<br>grow your business</h1>
                 <div class="w-6 h-1 bg-greenLight"></div>
-                <p class="text-[18px] text-gray-300 font-mullish leading-7 opacity-60">Accept payments from customers.Automate payouts to
+                <p class="text-[18px] text-white font-mullish leading-7 opacity-80">Accept payments from customers.Automate payouts to
                     vendors & employees.Never run out of working capitals
                 </p>
-                <button class="bg-lightBlue rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px] text-sm">Sign Up Now</button>
+                <button class="bg-lightBlue rounded-md font-mullish text-white font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px] text-sm">Sign Up Now</button>
             </div>
             <!-- right -->
-            <img src="hero-illustration.jpg" alt="" class="max-w-[680px]">
+            <img src="hero-illustration.jpg" alt="" class="w-full max-w-[680px]">
         </div>
         <!-- shape -->
-        <img src="hero-shape.svg" alt="">
+        <div class="absolute right-0 left-0 w-[103%]">
+            <img src="hero-shape.svg" class="w-full object-fill scale-x-100" alt="">
+        </div>
+    </section>
+
+
+    <!-- Feature section -->
+    <section class="relative mt-[190px] overflow-hidden">
+    <img src="feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167" class="absolute -top-[8rem] left-[10rem] inline-block">
+    <img src="feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167" class="absolute top-[3rem] right-0 inline-block">
+
+    <div class="relative max-w-[1080px] mx-auto">
+        <h2 class="text-black font-extrabold text-[23px] text-center leading-[2.7]">Accept Payments with Razorpay Payment Suite</h2>
+        <div class="w-6 h-1 bg-greenLight mx-auto"></div>
+
+        <!-- container -->
+        <div class="border rounded-md mt-6 mx-auto flex justify-center items-center overflow-hidden">
+            <!-- left -->
+            <div class="flex flex-col mt-12 ml-10 mb-10">
+                <h2 class="font-mullish text-[29px] font-bold leading-[1.4]">Supercharge your business with the <br>all-powerful <span class="text-lightBlue">Payment Gateway</span></h2>
+                <ul class="leading-[2.2] text-[17px] mt-10">
+                    <li><i class="fa-solid fa-check text-green-400"></i> 100+ Payment Methods</li>
+                    <li><i class="fa-solid fa-check text-green-400"></i> Industry Leading Success Rate</li>
+                    <li><i class="fa-solid fa-check text-green-400"></i> Superior Checkout Experience</li>
+                    <li><i class="fa-solid fa-check text-green-400"></i> Easy to Integrate</li>
+                    <li><i class="fa-solid fa-check text-green-400"></i> Instant Settlements from day 1</li>
+                    <li><i class="fa-solid fa-check text-green-400"></i> In-depth Reporting and Insights</li>
+                </ul>
+
+                <!-- button -->
+                <div class="mt-10 flex items-center">
+                    <button class="bg-lightBlue rounded-md font-mullish text-white font-bold hover:bg-lightBlue500 transition-all duration-200 py-[17px] px-[16px] text-base">Sign Up Now <i class="fa-solid fa-arrow-right ml-2"></i></button>
+
+                    <!-- hyperlink -->
+                    <div class="ml-4">
+                      <a href="" class="font-bold text-lg text-lightBlue hover:underline hover:text-lightBlue500 transition-all duration-300">Know More
+                      <i class="fa-solid fa-chevron-right text-[14px] text-lightBlue transition-all duration-200"></i>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <img src="payment-suite.png" width="510" class="scale-[1.1]">
+        </div>
+    </div>
     </section>
 </body>
 </html>
