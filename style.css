@@ -18,5 +18,28 @@
         background-color: #0b72e7;
     }
     box-shadow: -5px -5px 10px rgb(24,28,56);
+}
+
+#card2:hover{
+    background-image: url('instant-settlement-bghover.svg');
+}
+
+#card3:hover{
+    background-image: url('upi-autopay-hoverbg.svg');
     
 }
+#card4:hover{
+    background-image: url('magic-checkout-hoverbg.svg');
+    
+}
+
+#card5:hover{
+    background-image: url('payment-button-hoverbg.svg');
+    
+}
+#card6:hover{
+    background-image: url('instantsettlement-hoverbg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
