@@ -45,8 +45,8 @@
 
 
 #imagemove{
-    animation: blur 7s linear infinite;
-    transition: all 4s;
+    animation: blur 12s linear infinite;
+    /* transition: all 4s; */
 }
 @keyframes blur{
     0%{
