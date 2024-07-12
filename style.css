@@ -43,3 +43,113 @@
     background-size: cover;
 }
 
+
+#imagemove{
+    animation: blur 7s linear infinite;
+    transition: all 4s;
+}
+@keyframes blur{
+    0%{
+        top: 0px;
+        opacity: 0;
+    }
+    5%{
+        top: -30px;
+        opacity: 1;
+
+    }
+    10%{
+        top: -60px;
+        opacity: 1;
+
+    }
+    15%{
+        top: -90px;
+        opacity: 1;
+
+    }
+    20%{
+        top: -120px;
+        opacity: 1;
+
+    }
+    25%{
+        top: -150px;
+        opacity: 1;
+
+    }
+    30%{
+        top: -180px;
+        opacity: 1;
+
+    }
+    35%{
+        top: -210px;
+        opacity: 1;
+
+    }
+    40%{
+        top: -240px;
+        opacity: 1;
+
+    }
+    45%{
+        top: -270px;
+        opacity: 1;
+
+    }
+    50%{
+        top: -300px;
+        opacity: 1;
+
+    }
+    55%{
+        top: -330px;
+        opacity: 1;
+
+    }
+    60%{
+        top: -360px;
+        opacity: 1;
+
+    }
+    65%{
+        top: -390px;
+        opacity: 1;
+
+    }
+    70%{
+        top: -420px;
+        opacity: 1;
+
+    }
+    75%{
+        top: -450px;
+        opacity: 1;
+
+    }
+    80%{
+        top: -480px;
+        opacity: 1;
+
+    }
+    85%{
+        top: -510px;
+        opacity: 1;
+
+    }
+    90%{
+        top: -540px;
+        opacity: 1;
+
+    }
+    95%{
+        top: -570px;
+        opacity: 1;
+
+    }
+    100%{
+        top: -600px;
+        opacity: 0;
+    }
+}
