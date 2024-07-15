@@ -10,13 +10,13 @@
 <body class="overflow-x-hidden">
 
     <!-- navbar section -->
-    <nav class="bg-deepBlue">
+    <nav class="bg-deepBlue overflow-x-hidden">
         <div class="relative w-[1080px] mx-auto flex items-center justify-between">
             <a href="#" class="cursor-pointer py-7 pr-7">
                 <img src="logo.svg" width="125px" height="30px">
             </a>
 
-            <ul class="flex justify-evenly space-x-6 text-white transition-all duration-200 cursor-pointer">
+            <ul class="lg:flex hidden justify-evenly space-x-6 text-white transition-all duration-200 cursor-pointer">
                 <a href="#"><li class="transition-all duration-200 cursor-pointer font-mullish h-20 py-8 text-sm hover:text-lightBlue500 hover:border-b-4 hover:border-b-lightBlue">Payment</li></a>
                 <a href="#"><li class="transition-all duration-200 cursor-pointer font-mullish h-20 py-8 text-sm hover:text-lightBlue500 hover:border-b-4 hover:border-b-lightBlue">Banking</li></a>
                 <a href="#"><li class="transition-all duration-200 cursor-pointer font-mullish h-20 py-8 text-sm hover:text-lightBlue500">Corporate Card</li></a>
@@ -35,8 +35,8 @@
     </nav>
 
     <!-- hero section -->
-    <section class="relative bg-deepBlue">
-        <div class="w-10/12 items-center flex flex-row justify-between max-w-[1080px] mx-auto">
+    <section class="relative bg-deepBlue ">
+        <div class="w-10/12 items-center flex flex-col lg:flex-row justify-between max-w-[1080px] mx-auto">
             <!-- left -->
             <div class=" space-y-8">
                 <h1 class="font-bold text-white font-mullish text-[40px] leading-[1.2]">Power your finance,<br>grow your business</h1>
@@ -50,8 +50,8 @@
             <img src="hero-illustration.jpg" alt="" class="w-full max-w-[680px]">
         </div>
         <!-- shape -->
-        <div class="absolute right-0 left-0 w-[103%]">
-            <img src="hero-shape.svg" class="w-full object-fill scale-x-100" alt="">
+        <div class="absolute right-0 left-0 w-[100%]">
+            <img src="hero-shape.svg" class="w-full object-fill" alt="">
         </div>
     </section>
 
@@ -66,7 +66,7 @@
             <div class="w-6 h-1 bg-greenLight mx-auto"></div>
 
             <!-- container -->
-            <div class="border rounded-md mt-6 mx-auto flex justify-center items-center overflow-hidden">
+            <div class="relative border rounded-md mt-6 mx-auto flex justify-start items-center overflow-hidden">
                 <!-- left -->
                 <div class="flex flex-col mt-12 ml-10 mb-10">
                     <h2 class="font-mullish text-[29px] font-bold leading-[1.4]">Supercharge your business with the <br>all-powerful <span class="text-lightBlue">Payment Gateway</span></h2>
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="payment-suite.png" width="510" class="scale-[1.1]">
+                <img src="payment-suite.png" width="510" class="max-w-[600px] absolute right-0 bottom-0 hidden lg:block md:block md:max-w-[400px] lg:max-w-[600px]">
             </div>
 
             <!-- grid feature section -->
@@ -398,7 +398,7 @@
 
 
     <!-- business section -->
-    <section class="bg-[url('feature-section-2BG.svg')] bg-cover bg-no-repeat pb-[500px] pt-[2rem]">
+    <section class="bg-[url('feature-section-2BG.svg')] bg-cover bg-no-repeat pb-[500px] pt-[2rem] overflow-hidden">
         <div class="relative max-w-[1080px] pt-80 mx-auto">
             <h2 class="text-white font-extrabold text-[23px] text-center leading-[2.3]">Explore Razorpay Business Banking</h2>
             <div class="w-6 h-1 bg-greenLight mx-auto"></div>
@@ -639,7 +639,7 @@
 
 
     <!-- cards section -->
-    <section class="mb-10">
+    <section class="mb-10 overflow-hidden">
         <div class="relative grid grid-cols-3 max-w-[1080px] mx-auto gap-x-4 gap-y-8">
             <img src="feature-section1-dottedrows.png" alt="" width="240" class="absolute left-[18.5rem] -z-10">
             <!-- card1 -->
@@ -819,7 +819,7 @@
     </section>
 
     <!-- experience section -->
-    <section class="relative max-w-[1300px] mx-auto pt-28 mb-24">
+    <section class="relative max-w-[1300px] mx-auto pt-28 mb-24 overflow-hidden">
         <img src="feature-section1-dottedrows.png" alt="" width="200" class="absolute top-40 left-8 -z-30">
         <!-- container -->
         <div>
@@ -877,7 +877,7 @@
     </section>
 
     <!-- footer section -->
-    <section class=" relative bg-[#edf8fe] -mt-[15rem] pb-10">
+    <section class=" relative bg-[#edf8fe] -mt-[15rem] pb-10 overflow-x-hidden">
         <!-- container -->
         <div class="max-w-[1080px] mx-auto flex flex-row pt-[18rem] space-x-16">
             <!-- box1 -->
